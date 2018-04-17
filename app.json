@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/roomList/roomList"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#304444",
+    "navigationBarTitleText": "立方国际青年社区",
+    "navigationBarTextStyle":"white"
+  }
+}

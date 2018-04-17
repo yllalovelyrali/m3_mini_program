@@ -1,0 +1,86 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+  <!-- <text class="user-motto">{{motto}}</text> -->
+  <!-- <view class="banner"></view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+  <image class="banner" src='/images/banners/main_banner_ed.jpg'>
+    
+  </image>
+  <view class="main_button_panel">
+    <view class="main_button">
+      <image 
+        class="home_btn_image"
+        src='/images/buttons/btn_event.png'>
+      </image>
+      <text class="bottom_text">活動</text>
+    </view>
+    <view class="main_button">
+      <image 
+        class="home_btn_image"
+        src='/images/buttons/btn_self.png'>
+      </image>
+      <text class="bottom_text">我的</text>
+    </view>
+    <view class="main_button">
+      <image 
+        class="home_main_btn_image"
+        src='/images/buttons/btn_rent.png'>
+      </image>
+      <text class="bottom_text">租房</text>
+    </view>
+    <view class="main_button">
+      <image 
+        class="home_btn_image"
+        src='/images/buttons/btn_service.png'>
+      </image>
+      <text class="bottom_text">報修</text>
+    </view>
+    <view class="main_button">
+      <image 
+        class="home_btn_image"
+        src='/images/buttons/btn_qa.png'>
+      </image>
+      <text class="bottom_text">指南</text>
+    </view>
+  </view>
+  <scroll-view
+    class="main_scroll_panel"
+    scroll-y="true"
+  >
+  <button 
+    class="room_btn_block"
+    bindtap="bindRoomTap"
+    >
+    <view class="room_block">
+      <text class="block_title">靚房出租</text>
+      <image class="banner" src='/images/banners/room.png'>
+      </image>
+      <view class="bottom_info">
+        <text class="bottom_text">地址：尖沙咀N1出口</text>
+        <text class="bottom_text">租金：10k ～ 12k</text>
+      </view>
+    </view>
+  </button>
+
+  <button class="room_btn_block">
+    <view class="room_block">
+      <text class="block_title">靚房出租</text>
+      <image class="banner" src='/images/banners/room.png'>
+      </image>
+      <view class="bottom_info">
+        <text class="bottom_text">地址：尖沙咀N1出口</text>
+        <text class="bottom_text">租金：10k ～ 12k</text>
+      </view>
+    </view>
+  </button>
+  </scroll-view>
+</view>
